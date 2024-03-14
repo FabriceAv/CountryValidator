@@ -36,18 +36,18 @@ namespace CountryValidation.Countries
             {
                 return ValidationResult.InvalidFormat("12345678901");
             }
-            var checkDigit = id.Substring(id.Length - 2);
+            var checkDigit = int.Parse(id.Substring(id.Length - 2));
 
             var nrToCheck = long.Parse(id.Substring(0, 9));
 
-            if (ModFunction(nrToCheck).ToString() == checkDigit)
+            if (ModFunction(nrToCheck) == checkDigit)
             {
                 return ValidationResult.Success();
             }
 
             nrToCheck = long.Parse('2' + id.Substring(0, 9));
 
-            bool isValid = ModFunction(nrToCheck).ToString() == checkDigit;
+            bool isValid = ModFunction(nrToCheck) == checkDigit;
             return isValid ? ValidationResult.Success() : ValidationResult.InvalidChecksum();
         }
 

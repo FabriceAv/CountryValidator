@@ -16,6 +16,7 @@ namespace CountryValidation.Tests
         [InlineData("12060105317", true)]
         [InlineData("36574261890", false)]
         [InlineData("36554266806", false)]
+        [InlineData("96091736909", true)]
         public void TestNationalId(string code, bool isValid)
         {
             Assert.Equal(isValid, _belgiumValidator.ValidateNationalIdentity(code).IsValid);
