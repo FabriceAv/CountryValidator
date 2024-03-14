@@ -9,6 +9,7 @@
     <PackageProjectUrl>https://github.com/FabriceAv/CountryValidator</PackageProjectUrl>
     <RepositoryUrl>https://github.com/FabriceAv/CountryValidator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageId>Inl.CountryValidator.DataAnnotationsr</PackageId>
     <AssemblyVersion>1.1.0.3</AssemblyVersion>
     <FileVersion>1.1.0.3</FileVersion>
     <Version>1.1.4</Version>
