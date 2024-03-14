@@ -12,7 +12,7 @@
     <RepositoryUrl>https://github.com/FabriceAv/CountryValidator</RepositoryUrl>
     <RootNamespace>CountryValidation</RootNamespace>
     <AssemblyName>CountryValidator</AssemblyName>
-    <PackageId>Inl.CountryValidator</PackageId>
+    <PackageId>FabriceAv.CountryValidator</PackageId>
     <AssemblyVersion>1.1.0.4</AssemblyVersion>
     <FileVersion>1.1.0.4</FileVersion>
     <Version>1.1.4</Version>
