@@ -1,0 +1,9 @@
+1.1.4
+Fixes
+- Fixed Belgium validator where new VAT number starts with BE1xxxxxxxxx (WhiteMohawk)
+- Fix IcelandValidator TaxCode validation error (LordSuprachris)
+- Update NorwayValidator : TIN ending with 00 (LordSuprachris)
+- Valid Ssn number returned as invalid (for Belgium) SSN : 96091736909
+
+Other
+- Support NET 8.0
